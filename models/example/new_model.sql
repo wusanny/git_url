@@ -1,1 +1,1 @@
-select 1 as tootsie
+select 1 as potat
