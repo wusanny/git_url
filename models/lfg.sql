@@ -1,1 +1,0 @@
-select alice as name
