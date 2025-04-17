@@ -1,2 +1,2 @@
 select 1 as id
---test
+--test add dbt clone step
