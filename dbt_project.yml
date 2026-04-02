@@ -28,6 +28,7 @@ on-run-start: "{% do print(env_var('DBT_SF_WAREHOUSE')) %}"
 
 vars:
   run_date: "2000-01-01"  # default
+  run_ts: "2000-01-01"
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
