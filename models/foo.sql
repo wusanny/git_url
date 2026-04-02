@@ -1,4 +1,11 @@
-{{ config(materialized='incremental', unique_key='id') }}
+{{
+  config(
+    materialized='incremental',
+    unique_key='id',
+    incremental_strategy='delete+insert',
+    meta={'incremental_predicate': "run_date = '{{ var('run_date') }}'"}
+  )
+}}
 
 with source as (
     select
