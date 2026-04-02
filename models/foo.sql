@@ -1,1 +1,3 @@
-select 1 as id
+{{ config(materialized='table') }}
+
+select '{{ var("run_date") }}' as run_date
