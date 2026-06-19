@@ -1,3 +1,3 @@
 select 1 as id
-union
+union all
 select 1 as id
