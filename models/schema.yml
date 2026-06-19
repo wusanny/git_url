@@ -1,0 +1,13 @@
+models:
+  - name: foo
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
+  - name: bar
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
