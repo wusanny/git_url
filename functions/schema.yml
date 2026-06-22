@@ -1,0 +1,8 @@
+functions:
+  - name: clean_apn
+    description: Strips dashes and whitespace from APN strings
+    arguments:
+      - name: input
+        data_type: STRING
+    returns:
+      data_type: STRING
