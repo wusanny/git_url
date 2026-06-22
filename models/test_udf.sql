@@ -1,0 +1,1 @@
+SELECT {{ function('clean_apn') }}('123-456-789') AS cleaned

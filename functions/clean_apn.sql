@@ -1,0 +1,1 @@
+TRIM(REPLACE(input, '-', ''))
